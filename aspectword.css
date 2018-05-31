@@ -11,6 +11,11 @@
 h1 {
   font-family: 'Abril Fatface', cursive;
 }
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+
+}
 .navbar-collapse .icon {
   display: none;
 }
@@ -69,7 +74,6 @@ h1 {
  }
 
  .item h4 {
-     font-size: 19px;
      line-height: 1.375em;
      font-weight: 400;
      font-style: italic;
@@ -126,20 +130,12 @@ h1 {
  }
 
   @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
     }
   }
-  @media screen and (max-width: 480px) {
-    .logo {
-        font-size: 150px;
-    }
-  }
+
   @media (max-width: 992px) {
     .navbar-collapse a {
       display: none;
@@ -148,7 +144,7 @@ h1 {
       float: right;
       display: block;
     }
-      .navbar-collapse.responsive {
+    .navbar-collapse.responsive {
       position: relative;
     }
     .navbar-collapse.responsive a.icon {
@@ -161,16 +157,5 @@ h1 {
       display: block;
       text-align: left;
     }
-    .content {
-      width: 100%;
-    }
-    [class*="co-"] {
-      width: 45%;
-    }
-    .content-2 {
-      width: 100%;
-    }
-    .carousel-caption {
-      display: none;
-    }
+
   }
